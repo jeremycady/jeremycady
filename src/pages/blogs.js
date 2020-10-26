@@ -77,7 +77,7 @@ export const pageQuery = graphql`
               sizes
             }
           }
-          createdAt
+          date
         }
       }
     }
