@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import {
   FacebookShareButton,
   TwitterShareButton,
-  WhatsappShareButton
+  LinkedInShareButton
 } from "react-share";
 
 const Share = ({ socialConfig }) => {
@@ -30,16 +30,16 @@ const Share = ({ socialConfig }) => {
         </span>
         <span className="text">Twitter</span>
       </TwitterShareButton>
-      <WhatsappShareButton
+      <LinkedInShareButton
         url={socialConfig.config.url}
         className="button is-outlined is-rounded whatsapp"
         title={socialConfig.config.title}
       >
         <span className="icon">
-          <i className="fab fa-whatsapp"></i>
+          <i className="fab fa-linkedin"></i>
         </span>
-        <span className="text">WhatsApp</span>
-      </WhatsappShareButton>
+        <span className="text">LinkedIn</span>
+      </LinkedInShareButton>
     </div>
   );
 };
