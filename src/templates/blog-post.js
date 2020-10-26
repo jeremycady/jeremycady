@@ -107,7 +107,7 @@ export const pageQuery = graphql`
           html
         }
       }
-      createdAt
+      date
     }
     contentfulSiteInformation {
       siteUrl
