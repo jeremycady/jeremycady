@@ -126,7 +126,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allContentfulBlogs(limit: 5, sort: {fields: createdAt, order: DESC}) {
+    allContentfulBlogs(limit: 5, sort: {fields: date, order: DESC}) {
       edges {
         node {
           title
@@ -142,7 +142,7 @@ export const pageQuery = graphql`
               sizes
             }
           }
-          createdAt
+          date
         }
       }
     }

@@ -57,7 +57,7 @@ export default class blogPost extends Component {
               <h1 className="title">{data.title}</h1>
               <span className="date">
                 <i class="fas fa-calendar-alt"></i>{" "}
-                {moment(data.createdAt).format("LL")}
+                {moment(data.date).format("LL")}
               </span>
               <div
                 dangerouslySetInnerHTML={{
