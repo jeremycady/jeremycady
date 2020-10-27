@@ -5,13 +5,9 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 import Banner from "../components/banner";
-import About from "../components/aboutcomp";
-import Service from "../components/service";
-import Work from "../components/work";
-import Blogs from "../components/blogs";
+import Blog from "../components/blog";
 import Testimonial from "../components/testimonial";
 import ContactForm from "../components/contactform";
-import Photos from "../components/photos";
 
 const IndexPage = ({ data }) => (
   <Layout header="home">
@@ -21,28 +17,10 @@ const IndexPage = ({ data }) => (
     />
     <Banner data={data.contentfulAboutMe}></Banner>
 
-    {/* {data.contentfulSiteInformation.menus
-      .filter(item => item === "About")
-      .map(t => {
-        return <About data={data.contentfulAboutMe}></About>;
-      })} */}
-
     {data.contentfulSiteInformation.menus
-      .filter(item => item === "Service")
+      .filter(item => item === "Blog")
       .map(t => {
-        return <Service data={data.allContentfulService}></Service>;
-      })}
-
-    {data.contentfulSiteInformation.menus
-      .filter(item => item === "Blogs")
-      .map(t => {
-        return <Blogs data={data.allContentfulBlogs}></Blogs>;
-      })}
-
-    {data.contentfulSiteInformation.menus
-      .filter(item => item === "Work")
-      .map(t => {
-        return <Work data={data.allContentfulWorks}></Work>;
+        return <Blog data={data.allContentfulBlogs}></Blog>;
       })}
 
     {data.contentfulSiteInformation.menus
@@ -51,12 +29,6 @@ const IndexPage = ({ data }) => (
         return (
           <Testimonial data={data.allContentfulTestimonials}></Testimonial>
         );
-      })}
-
-    {data.contentfulSiteInformation.menus
-      .filter(item => item === "Photos")
-      .map(t => {
-        return <Photos data={data.contentfulPhotos}></Photos>;
       })}
 
     {data.contentfulSiteInformation.menus
@@ -114,18 +86,6 @@ export const pageQuery = graphql`
       }
       bannerList
     }
-    allContentfulService {
-      edges {
-        node {
-          title
-          description {
-            childMarkdownRemark {
-              html
-            }
-          }
-        }
-      }
-    }
     allContentfulBlogs(limit: 5, sort: {fields: date, order: DESC}) {
       edges {
         node {
@@ -167,38 +127,6 @@ export const pageQuery = graphql`
               sizes
             }
           }
-        }
-      }
-    }
-    allContentfulWorks {
-      edges {
-        node {
-          siteName
-          url
-          image {
-            fluid(maxWidth: 600) {
-              base64
-              aspectRatio
-              src
-              srcSet
-              srcWebp
-              srcSetWebp
-              sizes
-            }
-          }
-        }
-      }
-    }
-    contentfulPhotos {
-      photos {
-        fluid(maxWidth: 600) {
-          base64
-          aspectRatio
-          src
-          srcSet
-          srcWebp
-          srcSetWebp
-          sizes
         }
       }
     }

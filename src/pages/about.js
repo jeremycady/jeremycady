@@ -57,7 +57,6 @@ const About = ({ children, header }) => (
               </div>
               <div className="left col-md-7 col-lg-8">
                 <div className="about-details">
-                  {/* <span className="name">My Name is {data.name}.</span> */}
                   <h2 className="sub-position">
                     I'm {data.contentfulAboutMe.designation}.
                   </h2>
@@ -71,20 +70,10 @@ const About = ({ children, header }) => (
                       <strong>Full Name</strong>
                       <p>{data.contentfulAboutMe.name}</p>
                     </li>
-                    {/* <li>
-                      <strong>Age</strong>
-                      <p>{data.age} Years</p>
-                    </li> */}
                     <li>
                       <strong>Location</strong>
                       <p>{data.contentfulAboutMe.location}</p>
                     </li>
-                    {/* <li>
-                      <strong>Email</strong>
-                      <p>
-                        <a href={`mailto:${data.gmail}`}>{data.gmail}</a>
-                      </p>
-                    </li> */}
                   </ul>
                   <div className="socials">
                     <ul>
@@ -104,14 +93,6 @@ const About = ({ children, header }) => (
                           rel="noopener noreferrer"
                         ></a>
                       </li>
-                      {/* <li>
-                        <a
-                          className="fab fa-instagram"
-                          href={data.instagram}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        ></a>
-                      </li> */}
                       <li>
                         <a
                           className="fab fa-linkedin-in"
