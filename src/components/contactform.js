@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class Contact extends Component {
+export default class ContactForm extends Component {
   render() {
     return (
       <div className="contact section" id="Contact">

@@ -5,12 +5,12 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 import Banner from "../components/banner";
-import About from "../components/about";
+import About from "../components/aboutcomp";
 import Service from "../components/service";
 import Work from "../components/work";
 import Blogs from "../components/blogs";
 import Testimonial from "../components/testimonial";
-import Contact from "../components/contact";
+import ContactForm from "../components/contactform";
 import Photos from "../components/photos";
 
 const IndexPage = ({ data }) => (
@@ -21,11 +21,11 @@ const IndexPage = ({ data }) => (
     />
     <Banner data={data.contentfulAboutMe}></Banner>
 
-    {data.contentfulSiteInformation.menus
+    {/* {data.contentfulSiteInformation.menus
       .filter(item => item === "About")
       .map(t => {
         return <About data={data.contentfulAboutMe}></About>;
-      })}
+      })} */}
 
     {data.contentfulSiteInformation.menus
       .filter(item => item === "Service")
@@ -62,7 +62,7 @@ const IndexPage = ({ data }) => (
     {data.contentfulSiteInformation.menus
       .filter(item => item === "Contact")
       .map(t => {
-        return <Contact data={data.contentfulAboutMe.gmail}></Contact>;
+        return <ContactForm />;
       })}
   </Layout>
 );

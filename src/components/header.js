@@ -47,7 +47,10 @@ export default class Header extends Component {
                   <li>
                     <Link to="/#home">Home</Link>
                   </li>
-                  {data.menus
+                  <li>
+                    <Link to="/about">About</Link>
+                  </li>
+                  {/* {data.menus
                     .filter(item => item === "About")
                     .map(t => {
                       return (
@@ -55,7 +58,7 @@ export default class Header extends Component {
                           <Link to={`/#About`}>About</Link>
                         </li>
                       );
-                    })}
+                    })} */}
                   {data.menus
                     .filter(item => item === "Service")
                     .map(t => {
@@ -65,22 +68,25 @@ export default class Header extends Component {
                         </li>
                       );
                     })}
-                  {data.menus
+                  <li>
+                    <Link to="/blogs">Blog</Link>
+                  </li>
+                  {/* {data.menus
                     .filter(item => item === "Blogs")
                     .map(t => {
                       return (
                         <li>
-                          <Link to={`/#Blogs`}>Blogs</Link>
+                          <Link to={`/#Blogs`}>Blog</Link>
                         </li>
                       );
-                    })}
+                    })} */}
 
                   {data.menus
                     .filter(item => item === "Work")
                     .map(t => {
                       return (
                         <li>
-                          <Link to={`/#Work`}>Work</Link>
+                          <Link to={`/#Work`}>Projects</Link>
                         </li>
                       );
                     })}
@@ -102,12 +108,12 @@ export default class Header extends Component {
                         </li>
                       );
                     })}
-                  {data.menus
+                    {data.menus
                     .filter(item => item === "Contact")
                     .map(t => {
                       return (
                         <li>
-                          <Link to={`/#Contact`}>Contact</Link>
+                          <Link to="/#Contact">Contact</Link>
                         </li>
                       );
                     })}
@@ -125,21 +131,45 @@ export default class Header extends Component {
                   <li>
                     <Link to="/#home">Home</Link>
                   </li>
-                  {data.menus
+                  <li>
+                    <Link to="/about">About</Link>
+                  </li>
+                  <li>
+                    <Link to="/blogs">Blog</Link>
+                  </li>
+                  {/* {data.menus
                     .filter(item => item === "Blogs")
                     .map(t => {
                       return (
                         <li>
-                          <Link to="/blogs">Blogs</Link>
+                          <Link to="/blogs">Blog</Link>
                         </li>
                       );
-                    })}
+                    })} */}
+                  {data.menus
+                    .filter(item => item === "Work")
+                    .map(t => {
+                      return (
+                        <li>
+                          <Link to={`/#Work`}>Projects</Link>
+                        </li>
+                      );
+                  })}
                   {data.menus
                     .filter(item => item === "Photos")
                     .map(t => {
                       return (
                         <li>
                           <Link to="/photos">Photos</Link>
+                        </li>
+                      );
+                    })}
+                    {data.menus
+                    .filter(item => item === "Contact")
+                    .map(t => {
+                      return (
+                        <li>
+                          <Link to="/contact">Contact</Link>
                         </li>
                       );
                     })}

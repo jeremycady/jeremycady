@@ -37,6 +37,7 @@ body{margin:0;background:#fafafe}
 .site-header .header-main .menu ul li a:hover:after{width:100%;transition:0.5s all}
 .section{padding:50px 0}
 .section:nth-child(even){background:#fff}
+.about{margin-top: 50px}
 .about-details .name{margin-bottom:10px;display:block}
 .about-details .sub-position{margin-bottom:10px;display:block}
 .about-details .details{padding:0;list-style:none;border-top:1px solid #000;padding-top:30px;margin-bottom:30px}

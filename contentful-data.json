@@ -559,7 +559,7 @@
         "id": "blogs",
         "type": "ContentType",
         "createdAt": "2020-10-26T10:45:53.344Z",
-        "updatedAt": "2020-10-26T11:31:31.913Z",
+        "updatedAt": "2020-10-26T16:35:14.071Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -567,8 +567,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:31:31.913Z",
+        "publishedVersion": 5,
+        "publishedAt": "2020-10-26T16:35:14.071Z",
         "firstPublishedAt": "2020-10-26T10:45:55.173Z",
         "createdBy": {
           "sys": {
@@ -584,8 +584,8 @@
             "id": "6pG0LjE7yf56IrLp4fbEOx"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 3,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -604,6 +604,17 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "date",
+          "name": "Date",
+          "type": "Date",
+          "localized": false,
+          "required": false,
           "validations": [
           ],
           "disabled": false,
@@ -1140,7 +1151,7 @@
             "linkType": "Space"
           }
         },
-        "version": 4,
+        "version": 6,
         "createdAt": "2020-10-26T10:45:55.271Z",
         "createdBy": {
           "sys": {
@@ -1149,7 +1160,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-10-26T11:31:34.439Z",
+        "updatedAt": "2020-10-26T16:35:14.613Z",
         "updatedBy": {
           "sys": {
             "id": "6pG0LjE7yf56IrLp4fbEOx",
@@ -1176,6 +1187,15 @@
         {
           "fieldId": "title",
           "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "date",
+          "settings": {
+            "ampm": "24",
+            "format": "dateonly"
+          },
+          "widgetId": "datePicker",
           "widgetNamespace": "builtin"
         },
         {
@@ -1381,81 +1401,6 @@
             "id": "x6zv1b9a00og"
           }
         },
-        "id": "2W6zmk0B7Kyz94SU8VRYnD",
-        "type": "Entry",
-        "createdAt": "2020-10-26T10:47:55.208Z",
-        "updatedAt": "2020-10-26T11:33:41.612Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:41.612Z",
-        "firstPublishedAt": "2020-10-26T10:48:07.010Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 4,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "testimonials"
-          }
-        }
-      },
-      "fields": {
-        "avatarImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "4yXZnfglqynUp9M1BwYzGy"
-            }
-          }
-        },
-        "name": {
-          "en-US": "Lorem Ipsum"
-        },
-        "subTitle": {
-          "en-US": "Lorem Ipsum"
-        },
-        "description": {
-          "en-US": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
         "id": "2MEkguSekmXg1wtgqfEaXV",
         "type": "Entry",
         "createdAt": "2020-10-26T10:47:55.215Z",
@@ -1585,7 +1530,7 @@
         "id": "4JrBcqVYRay1QiJH6zc7qO",
         "type": "Entry",
         "createdAt": "2020-10-26T10:47:55.274Z",
-        "updatedAt": "2020-10-26T11:33:42.245Z",
+        "updatedAt": "2020-10-26T23:35:03.243Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1593,8 +1538,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:42.245Z",
+        "publishedVersion": 5,
+        "publishedAt": "2020-10-26T23:35:03.243Z",
         "firstPublishedAt": "2020-10-26T10:48:08.332Z",
         "createdBy": {
           "sys": {
@@ -1610,8 +1555,8 @@
             "id": "6pG0LjE7yf56IrLp4fbEOx"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 3,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1645,441 +1590,6 @@
         },
         "description": {
           "en-US": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "CJvcVdHebL7vz3bWAIqwJ",
-        "type": "Entry",
-        "createdAt": "2020-10-26T10:47:55.306Z",
-        "updatedAt": "2020-10-26T11:33:41.979Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:41.979Z",
-        "firstPublishedAt": "2020-10-26T10:48:07.412Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 4,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "testimonials"
-          }
-        }
-      },
-      "fields": {
-        "avatarImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "4yXZnfglqynUp9M1BwYzGy"
-            }
-          }
-        },
-        "name": {
-          "en-US": "Lorem Ipsum"
-        },
-        "subTitle": {
-          "en-US": "Lorem Ipsum"
-        },
-        "description": {
-          "en-US": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "39bytjGpmt1wO1LeZUljr",
-        "type": "Entry",
-        "createdAt": "2020-10-26T10:47:55.586Z",
-        "updatedAt": "2020-10-26T11:33:36.990Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:36.990Z",
-        "firstPublishedAt": "2020-10-26T10:48:02.506Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 4,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "works"
-          }
-        }
-      },
-      "fields": {
-        "siteName": {
-          "en-US": "Site Name 4"
-        },
-        "url": {
-          "en-US": "#"
-        },
-        "image": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "5lvkZ1FDXMzUud9VKR1Ruq"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "nTJ0ZCWfXZbCWNfmkBTUh",
-        "type": "Entry",
-        "createdAt": "2020-10-26T10:47:57.275Z",
-        "updatedAt": "2020-10-26T11:33:37.655Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:37.655Z",
-        "firstPublishedAt": "2020-10-26T10:48:02.881Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 4,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "works"
-          }
-        }
-      },
-      "fields": {
-        "siteName": {
-          "en-US": "Site Name 5"
-        },
-        "url": {
-          "en-US": "#"
-        },
-        "image": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "4R3Nt1Xxk9zUtIAkWqPrW3"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "1Ru4ygYcLdmmqpMZgyedvc",
-        "type": "Entry",
-        "createdAt": "2020-10-26T10:47:57.321Z",
-        "updatedAt": "2020-10-26T11:33:37.980Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:37.980Z",
-        "firstPublishedAt": "2020-10-26T10:48:03.225Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 4,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "works"
-          }
-        }
-      },
-      "fields": {
-        "siteName": {
-          "en-US": "Site Name 3"
-        },
-        "url": {
-          "en-US": "#"
-        },
-        "image": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "18ZNTGLiqsZUOadteGwojO"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "19MTmPou8GOGA8v8IVrEGc",
-        "type": "Entry",
-        "createdAt": "2020-10-26T10:47:57.334Z",
-        "updatedAt": "2020-10-26T11:33:38.285Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:38.285Z",
-        "firstPublishedAt": "2020-10-26T10:48:03.523Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 4,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "works"
-          }
-        }
-      },
-      "fields": {
-        "siteName": {
-          "en-US": "Site Name 2"
-        },
-        "url": {
-          "en-US": "#"
-        },
-        "image": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "LkWkisSeBiTaYyaaH6OTr"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "5yj9TpsOj2xAzKI7tBMdxh",
-        "type": "Entry",
-        "createdAt": "2020-10-26T10:47:57.340Z",
-        "updatedAt": "2020-10-26T11:33:36.718Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:36.718Z",
-        "firstPublishedAt": "2020-10-26T10:48:02.207Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 4,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "works"
-          }
-        }
-      },
-      "fields": {
-        "siteName": {
-          "en-US": "Site Name 6"
-        },
-        "url": {
-          "en-US": "#"
-        },
-        "image": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "1cxUznYGiPOJ5GNNpkVAOr"
-            }
-          }
         }
       }
     },
@@ -2095,7 +1605,7 @@
         "id": "6caZg1KgLxQN4VE2QOJbCk",
         "type": "Entry",
         "createdAt": "2020-10-26T10:47:57.369Z",
-        "updatedAt": "2020-10-26T13:36:42.296Z",
+        "updatedAt": "2020-10-26T14:13:33.654Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2103,8 +1613,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 81,
-        "publishedAt": "2020-10-26T13:36:42.296Z",
+        "publishedVersion": 83,
+        "publishedAt": "2020-10-26T14:13:33.654Z",
         "firstPublishedAt": "2020-10-26T10:48:01.857Z",
         "createdBy": {
           "sys": {
@@ -2120,8 +1630,8 @@
             "id": "6pG0LjE7yf56IrLp4fbEOx"
           }
         },
-        "publishedCounter": 6,
-        "version": 82,
+        "publishedCounter": 7,
+        "version": 84,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2180,6 +1690,7 @@
         "bannerList": {
           "en-US": [
             "Christian",
+            "Husband",
             "Father",
             "Freedom Advocate"
           ]
@@ -2213,310 +1724,10 @@
             "id": "x6zv1b9a00og"
           }
         },
-        "id": "6HjEL96KHhGa2qMfjrngSg",
-        "type": "Entry",
-        "createdAt": "2020-10-26T10:47:57.536Z",
-        "updatedAt": "2020-10-26T11:33:38.895Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:38.895Z",
-        "firstPublishedAt": "2020-10-26T10:48:04.065Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 4,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "blogs"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Blog Title 7"
-        },
-        "slug": {
-          "en-US": "blog-title-7"
-        },
-        "featureImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "018YEl9qSSZ3sbfhQdhgxI"
-            }
-          }
-        },
-        "description": {
-          "en-US": "## What is Lorem Ipsum?\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "4wH0G6WUqR8Oi2pggZmd2O",
-        "type": "Entry",
-        "createdAt": "2020-10-26T10:47:57.610Z",
-        "updatedAt": "2020-10-26T11:33:39.494Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:39.494Z",
-        "firstPublishedAt": "2020-10-26T10:48:04.620Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 4,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "blogs"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Blog Title 5"
-        },
-        "slug": {
-          "en-US": "blog-title-5"
-        },
-        "featureImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "18ZNTGLiqsZUOadteGwojO"
-            }
-          }
-        },
-        "description": {
-          "en-US": "## What is Lorem Ipsum?\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "1j5bExAUFjfQSfOaEVcrEL",
-        "type": "Entry",
-        "createdAt": "2020-10-26T10:47:59.279Z",
-        "updatedAt": "2020-10-26T11:33:39.760Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:39.760Z",
-        "firstPublishedAt": "2020-10-26T10:48:04.892Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 4,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "blogs"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Blog Title 4"
-        },
-        "slug": {
-          "en-US": "blog-title-4"
-        },
-        "featureImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "7vfITnS5gebujPUeOVwLb"
-            }
-          }
-        },
-        "description": {
-          "en-US": "## What is Lorem Ipsum?\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "6kAul40liNrxfIoTr9OvQX",
-        "type": "Entry",
-        "createdAt": "2020-10-26T10:47:59.308Z",
-        "updatedAt": "2020-10-26T11:33:39.161Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:39.161Z",
-        "firstPublishedAt": "2020-10-26T10:48:04.339Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 4,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "blogs"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Blog Title 6"
-        },
-        "slug": {
-          "en-US": "blog-title-6"
-        },
-        "featureImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "4MDGnTnc4h5DbSlWscJKrF"
-            }
-          }
-        },
-        "description": {
-          "en-US": "## What is Lorem Ipsum?\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
         "id": "4nUAmFYivv1fE0wa4GEE2T",
         "type": "Entry",
         "createdAt": "2020-10-26T10:47:59.344Z",
-        "updatedAt": "2020-10-26T11:33:38.612Z",
+        "updatedAt": "2020-10-27T01:25:10.619Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2524,8 +1735,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:38.612Z",
+        "publishedVersion": 12,
+        "publishedAt": "2020-10-27T01:25:10.619Z",
         "firstPublishedAt": "2020-10-26T10:48:03.797Z",
         "createdBy": {
           "sys": {
@@ -2541,8 +1752,8 @@
             "id": "6pG0LjE7yf56IrLp4fbEOx"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 4,
+        "version": 13,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2560,94 +1771,19 @@
       },
       "fields": {
         "siteName": {
-          "en-US": "Site Name 1"
+          "en-US": "jeremycady.com"
         },
         "url": {
-          "en-US": "#"
+          "en-US": "https://jeremycady.com"
         },
         "image": {
           "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "1SI8CkaEpAjaXLVcUkcIPA"
+              "id": "6NbkuC5c2IsjN5uTGBEg4Z"
             }
           }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "6vSsam6O060OhAGGYlpn6I",
-        "type": "Entry",
-        "createdAt": "2020-10-26T10:47:59.444Z",
-        "updatedAt": "2020-10-26T11:33:40.028Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:40.028Z",
-        "firstPublishedAt": "2020-10-26T10:48:05.145Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 4,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "blogs"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Blog Title 3"
-        },
-        "slug": {
-          "en-US": "blog-title-3"
-        },
-        "featureImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "32Vh1BnHEripiMFnxck0uH"
-            }
-          }
-        },
-        "description": {
-          "en-US": "## What is Lorem Ipsum?\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         }
       }
     },
@@ -2663,7 +1799,7 @@
         "id": "1vaZauN3G1LbRsJutH3AU9",
         "type": "Entry",
         "createdAt": "2020-10-26T10:47:59.527Z",
-        "updatedAt": "2020-10-26T13:21:22.153Z",
+        "updatedAt": "2020-10-27T00:37:07.904Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2671,8 +1807,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 12,
-        "publishedAt": "2020-10-26T13:21:22.153Z",
+        "publishedVersion": 22,
+        "publishedAt": "2020-10-27T00:37:07.904Z",
         "firstPublishedAt": "2020-10-26T10:48:06.290Z",
         "createdBy": {
           "sys": {
@@ -2688,8 +1824,8 @@
             "id": "6pG0LjE7yf56IrLp4fbEOx"
           }
         },
-        "publishedCounter": 3,
-        "version": 13,
+        "publishedCounter": 8,
+        "version": 23,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2721,7 +1857,9 @@
         "menus": {
           "en-US": [
             "About",
-            "Contact"
+            "Contact",
+            "Blogs",
+            "Work"
           ]
         }
       }
@@ -2738,7 +1876,7 @@
         "id": "kvdWcngcAWfKNWbU8TMeL",
         "type": "Entry",
         "createdAt": "2020-10-26T10:47:59.529Z",
-        "updatedAt": "2020-10-26T11:33:40.299Z",
+        "updatedAt": "2020-10-26T18:56:08.042Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2746,8 +1884,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:40.299Z",
+        "publishedVersion": 86,
+        "publishedAt": "2020-10-26T18:56:08.042Z",
         "firstPublishedAt": "2020-10-26T10:48:05.466Z",
         "createdBy": {
           "sys": {
@@ -2763,8 +1901,8 @@
             "id": "6pG0LjE7yf56IrLp4fbEOx"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 3,
+        "version": 87,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2782,22 +1920,25 @@
       },
       "fields": {
         "title": {
-          "en-US": "Blog Title 2"
+          "en-US": "Digital Minimalism"
+        },
+        "date": {
+          "en-US": "2020-09-17"
         },
         "slug": {
-          "en-US": "blog-title-2"
+          "en-US": "digital-minimalism"
         },
         "featureImage": {
           "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "3GzB8VwODxcATgqYrZLXcA"
+              "id": "1ojwJvCVmT8wA58fLRDrNu"
             }
           }
         },
         "description": {
-          "en-US": "## What is Lorem Ipsum?\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          "en-US": "I read Cal Newport's Digital Minimalism this week and it made myt think through my use of digital tools.\n\nI even suggested to Heidi that she read it and I'm hoping to begin a digital declutter on October 1. \n\nFew books have been impactful enough to make me seek immediate remedies, but Newport is persuasive in his argument.\n\nIn Digital Minimalism, Newport outlines the impacts of technology, not just social media, on our daily lives and our relationships with others.\n\nSocial media is the simplest example, but how is our use of technology detrimental to our well being?\n\nNewport doesn't argue that we should set aside technology, but instead makes you reflect on how you use it. Is your social media or SMS leading to an eventual phone call or, even better, an in person meeting. Or, are you replacing your interactions with others with the \"Like\" button. Don't ignore the technology, change how you use it.\n\nI recommend this for everyone and you can [pick up a copy on Amazon](https://amzn.to/3otE9Bz \"Digital Minimalism on Amazon\").\n\nI look forward to sharing the impact of our digital declutter."
         }
       }
     },
@@ -2813,7 +1954,7 @@
         "id": "3PgxStGrnRqEN9L1miJyJM",
         "type": "Entry",
         "createdAt": "2020-10-26T10:47:59.577Z",
-        "updatedAt": "2020-10-26T11:33:41.090Z",
+        "updatedAt": "2020-10-26T23:27:59.618Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2821,8 +1962,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:41.090Z",
+        "publishedVersion": 18,
+        "publishedAt": "2020-10-26T23:27:59.618Z",
         "firstPublishedAt": "2020-10-26T10:48:06.613Z",
         "createdBy": {
           "sys": {
@@ -2838,8 +1979,8 @@
             "id": "6pG0LjE7yf56IrLp4fbEOx"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 3,
+        "version": 19,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2857,7 +1998,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "My Photos"
+          "en-US": "Photos"
         },
         "photos": {
           "en-US": [
@@ -2865,126 +2006,14 @@
               "sys": {
                 "type": "Link",
                 "linkType": "Asset",
-                "id": "018YEl9qSSZ3sbfhQdhgxI"
+                "id": "11A4MAq4rB19frUFxnqlHg"
               }
             },
             {
               "sys": {
                 "type": "Link",
                 "linkType": "Asset",
-                "id": "5wQiuLEmv6IpivkRvSeEFf"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "1SI8CkaEpAjaXLVcUkcIPA"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "18ZNTGLiqsZUOadteGwojO"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "17Df0rX2XAdX0Vcg6DCXXv"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "LkWkisSeBiTaYyaaH6OTr"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "7vfITnS5gebujPUeOVwLb"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "4MDGnTnc4h5DbSlWscJKrF"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "1cxUznYGiPOJ5GNNpkVAOr"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "4R3Nt1Xxk9zUtIAkWqPrW3"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "5lvkZ1FDXMzUud9VKR1Ruq"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "1fANVR8QZYfacMuIMcMT2G"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "3GzB8VwODxcATgqYrZLXcA"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "32Vh1BnHEripiMFnxck0uH"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "1TdUwUBvE0LUiuESgXyi3C"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "7IyIhq0ijQoK3asaaOMQJM"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "3jZ2ne8tOyoN7s3Yem2Hqm"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "48G4Y9AtIb3gNFex4yAE9N"
+                "id": "1Co5EiroEcpiumsHvwtmeF"
               }
             }
           ]
@@ -3003,7 +2032,7 @@
         "id": "6dPFHmvvwRLTmishla3Y55",
         "type": "Entry",
         "createdAt": "2020-10-26T10:48:01.379Z",
-        "updatedAt": "2020-10-26T11:33:40.811Z",
+        "updatedAt": "2020-10-26T17:54:44.684Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3011,8 +2040,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 3,
-        "publishedAt": "2020-10-26T11:33:40.811Z",
+        "publishedVersion": 21,
+        "publishedAt": "2020-10-26T17:54:44.684Z",
         "firstPublishedAt": "2020-10-26T10:48:06.020Z",
         "createdBy": {
           "sys": {
@@ -3028,8 +2057,8 @@
             "id": "6pG0LjE7yf56IrLp4fbEOx"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 7,
+        "version": 22,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3047,22 +2076,25 @@
       },
       "fields": {
         "title": {
-          "en-US": "Blog Title 1"
+          "en-US": "Investing between the Lines"
+        },
+        "date": {
+          "en-US": "2020-09-07"
         },
         "slug": {
-          "en-US": "blog-title-1"
+          "en-US": "investing-between-the-lines"
         },
         "featureImage": {
           "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "7IyIhq0ijQoK3asaaOMQJM"
+              "id": "11A4MAq4rB19frUFxnqlHg"
             }
           }
         },
         "description": {
-          "en-US": "## What is Lorem Ipsum?\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          "en-US": "In my desire to reach financial independence, I am on a mission to increase my investing knowledge.\n\nI've read several books on the subject, and Laura Rittenhouse's Investing Between the Lines just happened to be the next book on my \"investing\" reading list. Understanding the management that operates a business is essential to the research needed to truly invest in great companies. \n\nOne measurement I've seen is their annual report, where many will write a letter to shareholders, employees, and customers. These letters often give insight into how a CEO thinks and offers an opportunity to show they are accountable to those they serve.\n\nThrough the course of reading Investing Between the Lines, I've come to the conclusion that it might be less of an investment tool and more of a professional development tool.\n\nAt first, I thought I might apply the system to political speeches, say Governor Parson's State of the State next year. But, I soon started considering my communications between staff, supervisors, legislators, and our grassroots activists.\n\nRittenhouse grades executive letters based on their candor, strategy, leadership, vision, stakeholder relationships, and accountability are essential to strong leadership capabilities. Rittenhouse makes the point that these principles should be evident in their communications as well.\n\nI'll be taking a look at my own communications while applying what I've gleaned to the annual reports I read each year.\n\nAdded to my reading list from this book are Rittenhouse's Buffet's Bites, Aldous Huxley's Brave New World,  and the books On Bullshit and On Truth by Harry Frankfurt. I've been picking up Warren Buffet's letters, but I'll probably be sure to add Jeff Bezos'.\n\nYou can find a [Investing Between the Lines on Amazon](https://amzn.to/2J8sAzz \"Investing Between the Lines on Amazon\")."
         }
       }
     }
@@ -3130,1413 +2162,6 @@
               }
             },
             "fileName": "2017-11_watkins_mill.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "7yHuAa09NVOcZ25POk7cbM",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:45:58.643Z",
-        "updatedAt": "2020-10-26T11:33:30.413Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:30.413Z",
-        "firstPublishedAt": "2020-10-26T10:47:54.445Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "rohitgupta-white"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/7yHuAa09NVOcZ25POk7cbM/9d6a204e066fa9ca212b768958199133/rohitgupta-white.png",
-            "details": {
-              "size": 1741,
-              "image": {
-                "width": 49,
-                "height": 45
-              }
-            },
-            "fileName": "rohitgupta-white.png",
-            "contentType": "image/png"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "5053xqiD6rGY5Z3xDASnAo",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:45:58.645Z",
-        "updatedAt": "2020-10-26T11:33:25.844Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:25.844Z",
-        "firstPublishedAt": "2020-10-26T10:47:48.858Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "rohitgupta-full"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/5053xqiD6rGY5Z3xDASnAo/64c1d7b07bdb61b1c770ea07b8ceb993/rohitgupta-full.jpg",
-            "details": {
-              "size": 25660,
-              "image": {
-                "width": 375,
-                "height": 745
-              }
-            },
-            "fileName": "rohitgupta-full.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "48G4Y9AtIb3gNFex4yAE9N",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:45:58.650Z",
-        "updatedAt": "2020-10-26T11:33:31.321Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:31.321Z",
-        "firstPublishedAt": "2020-10-26T10:47:54.927Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "safar-safarov-MSN8TFhJ0is-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/48G4Y9AtIb3gNFex4yAE9N/7a5a96cd9305cfd50dd0e06df7ea6491/safar-safarov-MSN8TFhJ0is-unsplash.webp",
-            "details": {
-              "size": 209314,
-              "image": {
-                "width": 3000,
-                "height": 2000
-              }
-            },
-            "fileName": "safar-safarov-MSN8TFhJ0is-unsplash.webp",
-            "contentType": "image/webp"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "01OzqqEI37jWbRvaK4Clna",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:45:58.664Z",
-        "updatedAt": "2020-10-26T11:33:30.194Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:30.194Z",
-        "firstPublishedAt": "2020-10-26T10:47:54.212Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "logo file"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/01OzqqEI37jWbRvaK4Clna/fe31340346ea964df72918a99beda003/logo_file.png",
-            "details": {
-              "size": 1364,
-              "image": {
-                "width": 49,
-                "height": 45
-              }
-            },
-            "fileName": "logo_file.png",
-            "contentType": "image/png"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "1SI8CkaEpAjaXLVcUkcIPA",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:45:58.874Z",
-        "updatedAt": "2020-10-26T11:33:29.976Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:29.976Z",
-        "firstPublishedAt": "2020-10-26T10:47:53.886Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "johnson-wang-iI4sR nkkbc-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/1SI8CkaEpAjaXLVcUkcIPA/497733f8ec19d20b74e2c5b96531e186/johnson-wang-iI4sR_nkkbc-unsplash.jpg",
-            "details": {
-              "size": 651268,
-              "image": {
-                "width": 2466,
-                "height": 1621
-              }
-            },
-            "fileName": "johnson-wang-iI4sR_nkkbc-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "32Vh1BnHEripiMFnxck0uH",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:45:59.171Z",
-        "updatedAt": "2020-10-26T11:33:27.119Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:27.119Z",
-        "firstPublishedAt": "2020-10-26T10:47:50.653Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "austin-chan-ukzHlkoz1IE-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/32Vh1BnHEripiMFnxck0uH/e4bb447a9766f6e4773542972091145c/austin-chan-ukzHlkoz1IE-unsplash.jpg",
-            "details": {
-              "size": 1304367,
-              "image": {
-                "width": 5184,
-                "height": 3456
-              }
-            },
-            "fileName": "austin-chan-ukzHlkoz1IE-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "5lvkZ1FDXMzUud9VKR1Ruq",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:45:59.431Z",
-        "updatedAt": "2020-10-26T11:33:27.334Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:27.334Z",
-        "firstPublishedAt": "2020-10-26T10:47:51.051Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "jesus-kiteque-wn-KYaHwcis-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/5lvkZ1FDXMzUud9VKR1Ruq/6cd7b3c07c35213ca2cb29e7ef9e5faa/jesus-kiteque-wn-KYaHwcis-unsplash.jpg",
-            "details": {
-              "size": 421692,
-              "image": {
-                "width": 4096,
-                "height": 2726
-              }
-            },
-            "fileName": "jesus-kiteque-wn-KYaHwcis-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "3GzB8VwODxcATgqYrZLXcA",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:45:59.754Z",
-        "updatedAt": "2020-10-26T11:33:27.556Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:27.556Z",
-        "firstPublishedAt": "2020-10-26T10:47:51.345Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "ian-schneider-TamMbr4okv4-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/3GzB8VwODxcATgqYrZLXcA/e15248ec1b69ce764b5eafdd146eb34c/ian-schneider-TamMbr4okv4-unsplash.jpg",
-            "details": {
-              "size": 6364894,
-              "image": {
-                "width": 6016,
-                "height": 4016
-              }
-            },
-            "fileName": "ian-schneider-TamMbr4okv4-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "5wQiuLEmv6IpivkRvSeEFf",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:46:00.354Z",
-        "updatedAt": "2020-10-26T11:33:27.763Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:27.763Z",
-        "firstPublishedAt": "2020-10-26T10:47:51.557Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "thomas-lefebvre-gp8BLyaTaA0-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/5wQiuLEmv6IpivkRvSeEFf/96ca6f47125be7e89c140b3757ac47b8/thomas-lefebvre-gp8BLyaTaA0-unsplash.jpg",
-            "details": {
-              "size": 737124,
-              "image": {
-                "width": 4705,
-                "height": 3137
-              }
-            },
-            "fileName": "thomas-lefebvre-gp8BLyaTaA0-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "3jZ2ne8tOyoN7s3Yem2Hqm",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:46:00.595Z",
-        "updatedAt": "2020-10-26T11:33:26.061Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:26.061Z",
-        "firstPublishedAt": "2020-10-26T10:47:49.060Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "simon-abrams-k T9Zj3SE8k-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/3jZ2ne8tOyoN7s3Yem2Hqm/e8b47a2539288621c910a49b7e95bb20/simon-abrams-k_T9Zj3SE8k-unsplash.jpg",
-            "details": {
-              "size": 1992206,
-              "image": {
-                "width": 4430,
-                "height": 2953
-              }
-            },
-            "fileName": "simon-abrams-k_T9Zj3SE8k-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "1fANVR8QZYfacMuIMcMT2G",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:46:00.621Z",
-        "updatedAt": "2020-10-26T11:33:26.461Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:26.461Z",
-        "firstPublishedAt": "2020-10-26T10:47:50.037Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "corinne-kutz-tMI2 -r5Nfo-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/1fANVR8QZYfacMuIMcMT2G/b9a1dc7501bad6bdb1d02310b482b638/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg",
-            "details": {
-              "size": 375439,
-              "image": {
-                "width": 2880,
-                "height": 1920
-              }
-            },
-            "fileName": "corinne-kutz-tMI2_-r5Nfo-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "1TdUwUBvE0LUiuESgXyi3C",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:46:00.642Z",
-        "updatedAt": "2020-10-26T11:33:26.896Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:26.896Z",
-        "firstPublishedAt": "2020-10-26T10:47:50.436Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "dustin-lee-jLwVAUtLOAQ-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/1TdUwUBvE0LUiuESgXyi3C/3cf5530bc4cdb5e58db265822f839618/dustin-lee-jLwVAUtLOAQ-unsplash.jpg",
-            "details": {
-              "size": 2085877,
-              "image": {
-                "width": 4000,
-                "height": 2667
-              }
-            },
-            "fileName": "dustin-lee-jLwVAUtLOAQ-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "1cxUznYGiPOJ5GNNpkVAOr",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:46:00.759Z",
-        "updatedAt": "2020-10-26T11:33:26.684Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:26.684Z",
-        "firstPublishedAt": "2020-10-26T10:47:50.236Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "kristopher-roller-PC lbSSxCZE-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/1cxUznYGiPOJ5GNNpkVAOr/1336874cdc32372c2092ef6afddd0280/kristopher-roller-PC_lbSSxCZE-unsplash.jpg",
-            "details": {
-              "size": 4426599,
-              "image": {
-                "width": 4823,
-                "height": 3648
-              }
-            },
-            "fileName": "kristopher-roller-PC_lbSSxCZE-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "7IyIhq0ijQoK3asaaOMQJM",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:46:00.786Z",
-        "updatedAt": "2020-10-26T11:33:26.258Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:26.258Z",
-        "firstPublishedAt": "2020-10-26T10:47:49.750Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "joanna-kosinska-1 CMoFsPfso-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/7IyIhq0ijQoK3asaaOMQJM/73ba3ac6c9d1a9a1fde34d3e0fa74e31/joanna-kosinska-1_CMoFsPfso-unsplash.jpg",
-            "details": {
-              "size": 2616961,
-              "image": {
-                "width": 6016,
-                "height": 4016
-              }
-            },
-            "fileName": "joanna-kosinska-1_CMoFsPfso-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "4MDGnTnc4h5DbSlWscJKrF",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:46:00.830Z",
-        "updatedAt": "2020-10-26T11:33:27.959Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:27.959Z",
-        "firstPublishedAt": "2020-10-26T10:47:51.781Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "john-baker-3To9V42K0Ag-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/4MDGnTnc4h5DbSlWscJKrF/ae832f87b84eafd667fb87030f67f97d/john-baker-3To9V42K0Ag-unsplash.jpg",
-            "details": {
-              "size": 523952,
-              "image": {
-                "width": 2627,
-                "height": 1642
-              }
-            },
-            "fileName": "john-baker-3To9V42K0Ag-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "18ZNTGLiqsZUOadteGwojO",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:46:01.073Z",
-        "updatedAt": "2020-10-26T11:33:29.748Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:29.748Z",
-        "firstPublishedAt": "2020-10-26T10:47:53.058Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "ross-findon-mG28olYFgHI-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/18ZNTGLiqsZUOadteGwojO/0fde904417cd4bc90ee7da802aa440f7/ross-findon-mG28olYFgHI-unsplash.jpg",
-            "details": {
-              "size": 1285351,
-              "image": {
-                "width": 5312,
-                "height": 2988
-              }
-            },
-            "fileName": "ross-findon-mG28olYFgHI-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "LkWkisSeBiTaYyaaH6OTr",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:46:02.632Z",
-        "updatedAt": "2020-10-26T11:33:28.379Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:28.379Z",
-        "firstPublishedAt": "2020-10-26T10:47:52.208Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "plush-design-studio-y7GlIdTUOvo-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/LkWkisSeBiTaYyaaH6OTr/5396d57e8626230ec9a5a65042d46033/plush-design-studio-y7GlIdTUOvo-unsplash.jpg",
-            "details": {
-              "size": 1083697,
-              "image": {
-                "width": 4608,
-                "height": 3456
-              }
-            },
-            "fileName": "plush-design-studio-y7GlIdTUOvo-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "17Df0rX2XAdX0Vcg6DCXXv",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:46:02.638Z",
-        "updatedAt": "2020-10-26T11:33:28.833Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:28.833Z",
-        "firstPublishedAt": "2020-10-26T10:47:52.412Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "sydney-rae-geM5lzDj4Iw-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/17Df0rX2XAdX0Vcg6DCXXv/6ca82eab9411c7d3add6c90344e2d3ed/sydney-rae-geM5lzDj4Iw-unsplash.jpg",
-            "details": {
-              "size": 1572492,
-              "image": {
-                "width": 2208,
-                "height": 1472
-              }
-            },
-            "fileName": "sydney-rae-geM5lzDj4Iw-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "4R3Nt1Xxk9zUtIAkWqPrW3",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:46:02.654Z",
-        "updatedAt": "2020-10-26T11:33:28.165Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:28.165Z",
-        "firstPublishedAt": "2020-10-26T10:47:52.007Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "stefan-cosma-0gO3-b-5m80-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/4R3Nt1Xxk9zUtIAkWqPrW3/7177bf9b2296f402c52c699995127d15/stefan-cosma-0gO3-b-5m80-unsplash.jpg",
-            "details": {
-              "size": 1033394,
-              "image": {
-                "width": 6000,
-                "height": 4000
-              }
-            },
-            "fileName": "stefan-cosma-0gO3-b-5m80-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "018YEl9qSSZ3sbfhQdhgxI",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:46:02.697Z",
-        "updatedAt": "2020-10-26T11:33:29.240Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:29.240Z",
-        "firstPublishedAt": "2020-10-26T10:47:52.617Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "carl-heyerdahl-KE0nC8-58MQ-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/018YEl9qSSZ3sbfhQdhgxI/7e7d49b8174af96350e08575acbd3549/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg",
-            "details": {
-              "size": 2645070,
-              "image": {
-                "width": 5760,
-                "height": 3840
-              }
-            },
-            "fileName": "carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "id": "7vfITnS5gebujPUeOVwLb",
-        "type": "Asset",
-        "createdAt": "2020-10-26T10:46:02.829Z",
-        "updatedAt": "2020-10-26T11:33:29.530Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-10-26T11:33:29.530Z",
-        "firstPublishedAt": "2020-10-26T10:47:52.838Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "fab-lentz-mRMQwK513hY-unsplash"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/x6zv1b9a00og/7vfITnS5gebujPUeOVwLb/c5579a59f317b30e310db7fbfe00c809/fab-lentz-mRMQwK513hY-unsplash.jpg",
-            "details": {
-              "size": 132247,
-              "image": {
-                "width": 2048,
-                "height": 1524
-              }
-            },
-            "fileName": "fab-lentz-mRMQwK513hY-unsplash.jpg",
             "contentType": "image/jpeg"
           }
         }
@@ -4812,6 +2437,353 @@
           }
         }
       }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "x6zv1b9a00og"
+          }
+        },
+        "id": "5t9LRXLYul8S6WpxpCcuy5",
+        "type": "Asset",
+        "createdAt": "2020-10-26T16:30:34.455Z",
+        "updatedAt": "2020-10-26T16:32:16.701Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2020-10-26T16:32:16.701Z",
+        "firstPublishedAt": "2020-10-26T16:32:16.701Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Investing Between the lines"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/x6zv1b9a00og/5t9LRXLYul8S6WpxpCcuy5/d1a4225092ba3131ed7e1230058426e3/IMG_20200907_172537.jpg",
+            "details": {
+              "size": 2979940,
+              "image": {
+                "width": 4032,
+                "height": 2268
+              }
+            },
+            "fileName": "IMG_20200907_172537.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "x6zv1b9a00og"
+          }
+        },
+        "id": "11A4MAq4rB19frUFxnqlHg",
+        "type": "Asset",
+        "createdAt": "2020-10-26T17:37:00.448Z",
+        "updatedAt": "2020-10-26T17:37:27.177Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2020-10-26T17:37:27.177Z",
+        "firstPublishedAt": "2020-10-26T17:37:27.177Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Invest Between the Lines"
+        },
+        "description": {
+          "en-US": "Invest Between the Lines"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/x6zv1b9a00og/11A4MAq4rB19frUFxnqlHg/181fd9360349a4caba3a3db3bc0f9ab2/IMG_20200907_172537.jpg",
+            "details": {
+              "size": 2979940,
+              "image": {
+                "width": 4032,
+                "height": 2268
+              }
+            },
+            "fileName": "IMG_20200907_172537.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "x6zv1b9a00og"
+          }
+        },
+        "id": "1ojwJvCVmT8wA58fLRDrNu",
+        "type": "Asset",
+        "createdAt": "2020-10-26T18:43:42.192Z",
+        "updatedAt": "2020-10-26T18:44:40.756Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2020-10-26T18:44:40.756Z",
+        "firstPublishedAt": "2020-10-26T18:44:40.756Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Digital Minimalism"
+        },
+        "description": {
+          "en-US": "Digital Minimalism by Cal Newport"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/x6zv1b9a00og/1ojwJvCVmT8wA58fLRDrNu/d0619851c0864c40d1ba051f638d362f/digital_minimalism.jpg",
+            "details": {
+              "size": 322617,
+              "image": {
+                "width": 1998,
+                "height": 1073
+              }
+            },
+            "fileName": "digital_minimalism.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "x6zv1b9a00og"
+          }
+        },
+        "id": "1Co5EiroEcpiumsHvwtmeF",
+        "type": "Asset",
+        "createdAt": "2020-10-26T18:45:22.327Z",
+        "updatedAt": "2020-10-26T18:45:54.858Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2020-10-26T18:45:54.858Z",
+        "firstPublishedAt": "2020-10-26T18:45:54.858Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Digital Minimalism"
+        },
+        "description": {
+          "en-US": "Digital Minimalism by Cal Newport"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/x6zv1b9a00og/1Co5EiroEcpiumsHvwtmeF/295214b47e79ff10e89da3a7445ceee0/digital_minimalism.jpg",
+            "details": {
+              "size": 322617,
+              "image": {
+                "width": 1998,
+                "height": 1073
+              }
+            },
+            "fileName": "digital_minimalism.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "x6zv1b9a00og"
+          }
+        },
+        "id": "6NbkuC5c2IsjN5uTGBEg4Z",
+        "type": "Asset",
+        "createdAt": "2020-10-27T01:22:50.171Z",
+        "updatedAt": "2020-10-27T01:23:23.304Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2020-10-27T01:23:23.304Z",
+        "firstPublishedAt": "2020-10-27T01:23:23.304Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6pG0LjE7yf56IrLp4fbEOx"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "jeremycady_com"
+        },
+        "description": {
+          "en-US": "Banner image of jeremycady.com"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/x6zv1b9a00og/6NbkuC5c2IsjN5uTGBEg4Z/cf7759fae3113a57f042fa6644466a27/jeremycady_com.jpg",
+            "details": {
+              "size": 183903,
+              "image": {
+                "width": 2000,
+                "height": 1215
+              }
+            },
+            "fileName": "jeremycady_com.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
     }
   ],
   "locales": [
@@ -4861,60 +2833,6 @@
     }
   ],
   "webhooks": [
-    {
-      "name": "Netlify - Deploy a site",
-      "url": "https://api.netlify.com/build_hooks/5e4cb921f6529c16de2419c4",
-      "httpBasicUsername": null,
-      "topics": [
-        "Entry.publish",
-        "Asset.publish",
-        "Entry.unpublish",
-        "Asset.unpublish"
-      ],
-      "filters": [
-        {
-          "equals": [
-            {
-              "doc": "sys.environment.sys.id"
-            },
-            "master"
-          ]
-        }
-      ],
-      "transformation": {
-        "contentType": "application/json"
-      },
-      "sys": {
-        "type": "WebhookDefinition",
-        "id": "0rDzRMk7qqJVfuU08sqQFx",
-        "version": 0,
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zv1b9a00og"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "createdAt": "2020-10-26T10:48:09Z",
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6pG0LjE7yf56IrLp4fbEOx"
-          }
-        },
-        "updatedAt": "2020-10-26T10:48:09Z"
-      },
-      "headers": [
-      ]
-    }
   ],
   "roles": [
     {
