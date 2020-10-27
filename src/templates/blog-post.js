@@ -13,6 +13,7 @@ export default class blogPost extends Component {
     const data = this.props.data.contentfulBlogs;
     const disqusShortname = "jeremycady";
     const disqusConfig = {
+      url: `${this.props.data.contentfulSiteInformation.siteUrl}/${this.props.data.contentfulBlogs.slug}`,
       identifier: data.id,
       title: data.title
     };
