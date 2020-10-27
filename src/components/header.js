@@ -50,9 +50,15 @@ export default class Header extends Component {
                   <li>
                     <Link to="/about">About</Link>
                   </li>
-                  <li>
-                    <Link to="/blog">Blog</Link>
-                  </li>
+                  {data.menus
+                    .filter(item => item === "Blogs")
+                    .map(t => {
+                      return (
+                        <li>
+                          <Link to={`/#Blogs`}>Blog</Link>
+                        </li>
+                      );
+                    })}
                   {data.menus
                     .filter(item => item === "Testimonials")
                     .map(t => {
