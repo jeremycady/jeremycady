@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => (
     <Banner data={data.contentfulAboutMe}></Banner>
 
     {data.contentfulSiteInformation.menus
-      .filter(item => item === "Blog")
+      .filter(item => item === "Blogs")
       .map(t => {
         return <Blog data={data.allContentfulBlogs}></Blog>;
       })}
