@@ -36,6 +36,7 @@ const Layout = ({ children, header }) => (
           <main id="home">{children}</main>
         </div>
         <Footer siteName={data.contentfulSiteInformation.siteName} />
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e2edac04c5c24fc8bc84225961bc8afd"}'></script>
       </>
     )}
   />
